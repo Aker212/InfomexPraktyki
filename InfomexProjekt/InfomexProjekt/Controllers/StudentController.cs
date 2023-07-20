@@ -51,6 +51,11 @@ namespace InfomexProjekt.Controllers
         [HttpPost]
         public IActionResult CreateStudent(Student student)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             _context.Students.Add(student);
             _context.SaveChanges();
             return CreatedAtAction(nameof(GetStudentById), new { id = student.Id }, student);
