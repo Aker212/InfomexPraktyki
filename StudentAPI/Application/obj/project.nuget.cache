@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "1L4/wWBEZFZLupsvAgl9QtnlSw1Uge/IXnHR5k1HZW9F2kZr+BDBUYdFA6oCeFCzj/0wjfJmqLxhGuM24uR4Sw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Komputer\\Desktop\\Infomex\\StudentAPI\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Komputer\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Komputer\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
