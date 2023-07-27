@@ -76,3 +76,9 @@ C:\Users\Komputer\Desktop\Infomex\StudentAPI\StudentAPI\obj\Debug\net7.0\refint\
 C:\Users\Komputer\Desktop\Infomex\StudentAPI\StudentAPI\obj\Debug\net7.0\StudentAPI.pdb
 C:\Users\Komputer\Desktop\Infomex\StudentAPI\StudentAPI\obj\Debug\net7.0\StudentAPI.genruntimeconfig.cache
 C:\Users\Komputer\Desktop\Infomex\StudentAPI\StudentAPI\obj\Debug\net7.0\ref\StudentAPI.dll
+C:\Users\Komputer\Desktop\Infomex\StudentAPI\StudentAPI\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Komputer\Desktop\Infomex\StudentAPI\StudentAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Komputer\Desktop\Infomex\StudentAPI\StudentAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Komputer\Desktop\Infomex\StudentAPI\StudentAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Komputer\Desktop\Infomex\StudentAPI\StudentAPI\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Komputer\Desktop\Infomex\StudentAPI\StudentAPI\obj\Debug\net7.0\StudentAPI.MvcApplicationPartsAssemblyInfo.cs

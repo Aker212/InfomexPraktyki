@@ -19,6 +19,19 @@ builder.Services.AddScoped<IStudentService, StudentService>();
 builder.Services.AddScoped<IStudentRepository, StudentRepository>();
 builder.Services.AddScoped<IStudentValidator, StudentValidator>();
 
+
+builder.Services.AddScoped<IAdresService, AdresService>();
+builder.Services.AddScoped<IAdresRepository, AdresRepository>();
+
+builder.Services.AddScoped<IKursService, KursService>();
+builder.Services.AddScoped<IKursRepository, KursRepository>();
+
+builder.Services.AddScoped<IWydzialService, WydzialService>();
+builder.Services.AddScoped<IWydzialRepository, WydzialRepository>();
+
+
+
+
 builder.Services.AddDbContext<StudentAppContext>(options =>
    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 

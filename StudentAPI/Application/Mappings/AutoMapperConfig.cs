@@ -22,6 +22,39 @@ namespace Application.Mappings
 
               #endregion
 
+              #region Adres
+
+              cfg.CreateMap<Adres, AdresDto>();
+              cfg.CreateMap<AddAdresDto, Adres>();
+              cfg.CreateMap<UpdateAdresDto, Adres>();
+
+              cfg.CreateMap<IEnumerable<Adres>, ListAdresDto>()
+             .ForMember(dest => dest.Adres, act => act.MapFrom(src => src));
+
+              #endregion
+
+              #region Kurs
+
+              cfg.CreateMap<Kurs, KursDto>();
+              cfg.CreateMap<AddKursDto, Kurs>();
+              cfg.CreateMap<UpdateKursDto, Kurs>();
+
+              cfg.CreateMap<IEnumerable<Kurs>, ListKursDto>()
+             .ForMember(dest => dest.Kurs, act => act.MapFrom(src => src));
+
+              #endregion
+
+              #region Wydzial
+              cfg.CreateMap<Wydzial, WydzialDto>();
+              cfg.CreateMap<AddWydzialDto, Wydzial>();
+              cfg.CreateMap<UpdateWydzialDto, Wydzial>();
+
+              cfg.CreateMap<IEnumerable<Wydzial>, ListWydzialDto>()
+             .ForMember(dest => dest.Wydzial, act => act.MapFrom(src => src));
+
+              #endregion
+
+
           })
           .CreateMapper();
     }
